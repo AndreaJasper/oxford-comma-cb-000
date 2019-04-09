@@ -13,7 +13,7 @@ def oxford_comma(array)
       if x == array.length-1
         str += "and #{text}"
       else
-        str += "#{text}"
+        str += "#{text}, "
         x += 1
       end
     end
